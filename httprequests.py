@@ -1,7 +1,7 @@
 from multiprocessing import Pool
 from requests import get, exceptions
 
-DOMAIN = 'lb-625911287.ap-south-1.elb.amazonaws.com'
+DOMAIN = 'lb-1567901451.ap-south-1.elb.amazonaws.com'
 
 def send_request(_):
     while True:
